@@ -54,6 +54,10 @@ def replace_chars(string):
             char = "´"
         elif char == "´":
             char = "`"
+        elif char == ">":
+            char = "<"
+        elif char == "<":
+            char = ">"
 
         res += char
 
